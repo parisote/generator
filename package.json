@@ -1,0 +1,29 @@
+{
+  "name": "generator-parisote",
+  "version": "1.0.0",
+  "description": "yeoman generator",
+  "main": "index.js",
+  "dependencies": {
+    "yeoman-generator": "^5.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parisote/generator.git"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "parisote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parisote/generator/issues"
+  },
+  "homepage": "https://github.com/parisote/generator#readme"
+}
