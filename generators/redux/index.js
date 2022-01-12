@@ -6,6 +6,6 @@ module.exports = class extends Generator {
   }
 
   installDependencies() {
-    this.npmInstall(["redux", "react-redux", "async-action-creator"]);
+    this.addDependencies(["redux", "react-redux", "async-action-creator"]);
   }
 };
