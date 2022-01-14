@@ -14,5 +14,8 @@ module.exports = class extends Generator {
     this.addDependencies({"ethers":'^5.5.3'})
     this.addDependencies({"lite-server": "^2.6.1"})
     this.addDependencies({"bootstrap": "^5.1.3"})
+    this.addDependencies({"browserify": "^17.0.0"})
+    this.addDependencies({"eth-sig-util": "^3.0.1"})
+    this.addDependencies({"ethereumjs-util": "^7.0.9"})
   }
 };
